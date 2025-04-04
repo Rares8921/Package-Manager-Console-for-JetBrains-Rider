@@ -1,0 +1,84 @@
+.root {
+    -fx-background-color: #1e1e1e;
+    -fx-background-radius: 5;
+    -fx-border-color: #3e3e3e;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+}
+
+.root > .corner {
+    -fx-background-color: transparent;
+}
+
+.text-field {
+    -fx-background-color: #2e2e2e;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "JetBrains Mono", monospace;
+    -fx-font-size: 14px;
+    -fx-border-color: #3c3c3c;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 5 10 5 10;
+}
+
+.button {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "JetBrains Mono", monospace;
+    -fx-font-size: 14px;
+    -fx-border-color: #555555;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 6 14 6 14;
+}
+
+.button:hover {
+    -fx-background-color: #505050;
+}
+
+.scroll-pane {
+    -fx-background: #1e1e1e;
+    -fx-border-color: #333333;
+}
+
+.text-flow {
+    -fx-background-color: #1e1e1e;
+    -fx-padding: 10;
+}
+
+.text {
+    -fx-font-family: "JetBrains Mono", monospace;
+    -fx-font-size: 14px;
+}
+
+.scroll-pane {
+    -fx-background: #1e1e1e;
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.scroll-bar:vertical, .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+    -fx-pref-width: 8px;
+    -fx-pref-height: 8px;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #3e3e3e;
+    -fx-background-insets: 0;
+    -fx-background-radius: 4px;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #1e1e1e;
+    -fx-background-insets: 0;
+    -fx-background-radius: 4px;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-padding: 0;
+    -fx-shape: " "; /* remove default arrow buttons */
+    -fx-background-color: transparent;
+}
